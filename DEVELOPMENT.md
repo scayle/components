@@ -35,9 +35,9 @@ export default {
 
 Also, make sure to describe Storybook-only props as `This prop does only exist in Storybook`.
 
-#### Code style
+[//]: # (#### Code style)
 
-When in doubt, follow the existing [backbone-panel best-practices](../../docs/BEST_PRACTICES.md).
+[//]: # (When in doubt, follow the existing [backbone-panel best-practices]&#40;../../docs/BEST_PRACTICES.md&#41;.)
 
 #### TypeScript
 
