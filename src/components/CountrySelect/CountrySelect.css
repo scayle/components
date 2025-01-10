@@ -1,0 +1,13 @@
+.ay-country-select .ay-country-flag {
+    min-width: 20px;
+}
+
+.ay-country-select .ay-option.ay-option--icon {
+    @apply gap-x-2;
+
+    grid-template-columns: min-content repeat(1, minmax(0, 1fr));
+}
+
+.ay-country-select .ay-option .ay-option__label {
+    @apply truncate;
+}

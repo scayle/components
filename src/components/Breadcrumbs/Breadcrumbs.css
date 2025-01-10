@@ -1,0 +1,25 @@
+.ay-app-header-breadcrumbs {
+    @apply flex self-center mis-auto;
+}
+
+.ay-app-header-breadcrumbs .ay-app-header-breadcrumbs__list {
+    @apply flex pie-4 text-base bg-transparent rounded;
+}
+
+.ay-app-header-breadcrumbs .ay-app-header-breadcrumbs__item {
+    @apply flex overflow-hidden items-center text-dark-grey;
+
+    max-width: 12rem;
+}
+
+.ay-app-header-breadcrumbs .ay-app-header-breadcrumbs__content {
+    @apply text-dark-grey hover:text-black hover:no-underline truncate;
+}
+
+.ay-app-header-breadcrumbs .ay-app-header-breadcrumbs__content--last {
+    @apply text-black font-bold;
+}
+
+.ay-app-header-breadcrumbs .ay-app-header-breadcrumbs__icon {
+    @apply icon icon-sm mx-1 text-dark-grey;
+}

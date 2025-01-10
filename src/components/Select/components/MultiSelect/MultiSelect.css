@@ -1,0 +1,24 @@
+.ay-multiselect .ay-multiselect__tags {
+    @apply min-w-[208px] h-[36px] bg-white rounded border outline-none;
+    @apply flex justify-between relative items-center cursor-pointer hover:border-primary;
+}
+
+.ay-multiselect .ay-multiselect__tags.disabled {
+    @apply cursor-not-allowed hover:border-default bg-disabled;
+}
+
+.ay-multiselect .ay-multiselect__tags-wrapper {
+    @apply flex gap-1 pie-8 p-2;
+}
+
+.ay-multiselect .ay-multiselect__tags-actions {
+    @apply cursor-pointer absolute inline-end-[7px] flex items-center;
+}
+
+.ay-multiselect .ay-multiselect__tags-placeholder {
+    @apply text-base pis-2 cursor-pointer outline-none;
+}
+
+.ay-multiselect .ay-multiselect__tags-placeholder.disabled {
+    @apply cursor-not-allowed bg-transparent;
+}

@@ -1,0 +1,76 @@
+.ay-dangerous-modal {
+    width: 100% !important;
+    max-width: 90vw !important;
+}
+
+.ay-dangerous-modal .ay-modal__header {
+    @apply bg-red text-white;
+}
+
+.ay-dangerous-modal .ay-modal__header .ay-modal__close-btn {
+    @apply text-white;
+}
+
+.ay-dangerous-modal .ay-modal__body {
+    @apply flex flex-col justify-between items-center;
+}
+
+.ay-dangerous-modal .ay-dangerous-modal__warning-header {
+    @apply flex flex-col items-center mt-12;
+}
+
+.ay-dangerous-modal .ay-dangerous-modal__warning-title {
+    @apply mt-2 font-bold;
+
+    font-size: 15px;
+}
+
+.ay-dangerous-modal .ay-dangerous-modal__icon-container {
+    @apply bg-red bg-opacity-25 rounded-full inline-flex justify-center items-center;
+
+    width: 40px;
+    height: 40px;
+}
+
+.ay-dangerous-modal .ay-dangerous-modal__icon {
+    @apply icon text-red bg-transparent rounded-full;
+
+    width: 36px;
+    height: 36px;
+}
+
+.ay-dangerous-modal .ay-dangerous-modal__info {
+    @apply flex flex-col items-center my-1 text-center;
+}
+
+.ay-dangerous-modal .ay-dangerous-modal__confirm-container {
+    @apply flex flex-col my-4 w-1/2;
+}
+
+.ay-dangerous-modal .ay-dangerous-modal__confirm-label {
+    @apply label;
+}
+
+.ay-dangerous-modal .ay-dangerous-modal__confirm-label > span {
+    @apply label-text;
+}
+
+.ay-dangerous-modal .ay-dangerous-modal__confirm-input {
+    @apply form-control;
+}
+
+.ay-dangerous-modal .ay-dangerous-modal__confirm-tip {
+    @apply text-dark-grey break-normal text-sm;
+}
+
+.ay-dangerous-modal .ay-dangerous-modal__acknowledge {
+    @apply my-6;
+}
+
+.ay-dangerous-modal .ay-dangerous-modal__acknowledge .ay-checkbox {
+    --ay-checkbox-color: theme('colors.danger');
+}
+
+.ay-dangerous-modal .ay-dangerous-modal__acknowledge-info {
+    @apply font-bold;
+}

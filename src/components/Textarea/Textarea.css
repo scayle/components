@@ -1,0 +1,69 @@
+.ay-textarea {
+    @apply flex text-base items-center w-full;
+}
+
+.ay-textarea__prefix {
+    @apply absolute inline-start-2 h-full flex;
+}
+
+.ay-textarea__suffix {
+    @apply absolute inline-end-2 h-full flex;
+}
+
+.ay-textarea__prepend {
+    @apply bg-light border border-ie-0 h-full px-5 flex items-center rounded-is;
+
+    order: 1;
+}
+
+.ay-textarea__append {
+    @apply bg-light border border-is-0 h-full px-5 flex items-center rounded-ie;
+
+    order: 3;
+}
+
+.ay-textarea__inner {
+    @apply rounded relative bg-white flex items-center overflow-hidden w-full;
+
+    order: 2;
+}
+
+.ay-textarea__prepend ~ .ay-textarea__inner,
+.ay-textarea__prepend ~ .ay-textarea__inner textarea {
+    @apply rounded-is-none;
+}
+
+.ay-textarea__append ~ .ay-textarea__inner,
+.ay-textarea__append ~ .ay-textarea__inner textarea {
+    @apply rounded-ie-none;
+}
+
+.ay-textarea__inner textarea {
+    @apply rounded py-2 pis-4 pie-2 border outline-none flex-auto;
+
+    min-height: 38px;
+}
+
+.ay-textarea__inner textarea:hover {
+    @apply border-primary;
+}
+
+.ay-textarea__inner textarea:focus {
+    @apply border-primary;
+}
+
+.ay-textarea__inner textarea:invalid {
+    @apply border-danger;
+}
+
+.ay-textarea__inner textarea:invalid:focus {
+    @apply border-danger;
+}
+
+.ay-textarea__inner .ay-textarea__prefix ~ textarea {
+    @apply pis-8;
+}
+
+.ay-textarea__inner .ay-textarea__suffix ~ textarea {
+    @apply pie-6;
+}

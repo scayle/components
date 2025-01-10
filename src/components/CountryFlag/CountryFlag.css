@@ -1,0 +1,14 @@
+.ay-country-flag {
+    @apply block border rounded-sm overflow-hidden;
+
+    height: 14px;
+    width: 20px;
+}
+
+.ay-country-flag.ay-country-flag--empty {
+    @apply flex items-center justify-center border-0;
+}
+
+.ay-country-flag--empty svg {
+    @apply icon w-4 h-4;
+}

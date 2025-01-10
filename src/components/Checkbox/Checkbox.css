@@ -1,0 +1,84 @@
+.ay-checkbox {
+    @apply mb-0 mie-8 font-normal cursor-pointer;
+
+    --ay-checkbox-color: theme('colors.primary');
+
+    font-size: 14px;
+}
+
+.ay-checkbox.ay-checkbox--disabled {
+    @apply cursor-not-allowed;
+}
+
+.ay-checkbox:last-of-type {
+    @apply mie-0;
+}
+
+.ay-checkbox .ay-checkbox__input {
+    @apply relative inline-block whitespace-nowrap cursor-pointer outline-0 align-middle leading-none mr-2;
+}
+
+.ay-checkbox.ay-checkbox--disabled .ay-checkbox__input {
+    @apply cursor-not-allowed;
+}
+
+.ay-checkbox .ay-checkbox__inner {
+    @apply inline-block relative border bg-white z-1 rounded-sm;
+
+    box-sizing: border-box;
+    width: 14px;
+    height: 14px;
+    transition:
+        border-color 0.25s cubic-bezier(0.71, -0.46, 0.29, 1.46),
+        background-color 0.25s cubic-bezier(0.71, -0.46, 0.29, 1.46);
+}
+
+.ay-checkbox.ay-checkbox--checked .ay-checkbox__inner {
+    border-color: var(--ay-checkbox-color, theme('colors.primary'));
+    background-color: var(--ay-checkbox-color, theme('colors.primary'));
+}
+
+.ay-checkbox.ay-checkbox--disabled .ay-checkbox__inner {
+    @apply opacity-50 cursor-not-allowed;
+}
+
+.ay-checkbox.ay-checkbox--disabled:not(.ay-checkbox--checked) .ay-checkbox__inner {
+    @apply border-default bg-light;
+}
+
+.ay-checkbox:not(.ay-checkbox--disabled) .ay-checkbox__inner:hover,
+.ay-checkbox:not(.ay-checkbox--disabled) .ay-checkbox__input:focus-within .ay-checkbox__inner {
+    border-color: var(--ay-checkbox-color, theme('colors.primary'));
+}
+
+.ay-checkbox .ay-checkbox__inner::after {
+    @apply absolute;
+
+    content: '';
+    border: 1px solid #fff;
+    border-left: 0;
+    border-top: 0;
+    box-sizing: content-box;
+    width: 3px;
+    height: 7px;
+    left: 4px;
+    top: 1px;
+    transform: rotate(45deg) scaleY(0);
+    transition: transform 0.15s ease-in 50ms;
+}
+
+.ay-checkbox .ay-checkbox__inner.dark-check::after {
+    border-color: #000 !important;
+}
+
+.ay-checkbox.ay-checkbox--checked .ay-checkbox__inner::after {
+    transform: rotate(45deg) scaleY(1);
+}
+
+.ay-checkbox .ay-checkbox__original {
+    @apply absolute -z-1 opacity-0 outline-0 m-0 w-0 h-0;
+}
+
+.ay-checkbox .ay-checkbox__label {
+    @apply text-black pis-2 inline-block font-normal leading-tight text-base;
+}

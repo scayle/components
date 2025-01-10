@@ -1,0 +1,71 @@
+.ay-tabs .ay-tabs__header {
+    @apply relative flex text-base mb-4;
+}
+
+.ay-tabs.ay-tabs--type-simple .ay-tabs__header::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #e9eaec;
+    z-index: 1;
+}
+
+.ay-tabs.ay-tabs--type-simple .ay-tabs__tab {
+    @apply text-black rounded-t;
+
+    margin: 0 20px;
+    height: 40px;
+    box-sizing: border-box;
+    display: inline-block;
+    list-style: none;
+    position: relative;
+}
+
+.ay-tabs.ay-tabs--type-simple .ay-tabs__indicator {
+    @apply absolute bg-green;
+
+    bottom: 0;
+    height: 3px;
+    z-index: 2;
+    transition: transform 0.3s, width 0.3s;
+    will-change: width;
+}
+
+.ay-tabs .ay-tabs__tab:first-child {
+    @apply mis-0;
+}
+
+.ay-tabs .ay-tabs__tab:last-child {
+    @apply mie-0;
+}
+
+.ay-tabs .ay-tabs__tab .ay-tabs__tab-title {
+    @apply leading-10 text-base  font-bold cursor-pointer;
+}
+
+.ay-tabs .ay-tabs__tab .ay-tabs__tab-title:hover {
+    @apply text-green;
+}
+
+.ay-tabs.ay-tabs--type-button .ay-tabs__tab-button-container {
+    @apply flex mt-6;
+
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.03);
+}
+
+.ay-tabs.ay-tabs--type-button .ay-tabs__tab {
+    @apply inline-flex flex-1 justify-center items-center mb-0 shadow-none;
+}
+
+.ay-tabs.ay-tabs--type-button .ay-tabs__tab .ay-tabs__tab-badge {
+    @apply px-1 mis-1 min-w-[20px] tracking-normal rounded;
+
+    background-color: rgb(139 142 146 / 15%);
+}
+
+.ay-tabs.ay-tabs--type-button .ay-tabs__tab--active {
+    @apply btn-primary;
+}

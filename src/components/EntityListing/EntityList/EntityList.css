@@ -1,0 +1,62 @@
+.ay-entity-list .ay-entity-list__load-more {
+    @apply mt-4 text-center;
+}
+
+.ay-entity-list .ay-entity-list__button {
+    @apply btn btn-secondary;
+}
+
+.ay-entity-list .ay-entity-list__item {
+    @apply flex p-4 mb-4 shadow-light rounded bg-white cursor-pointer transition-all hover:border-primary;
+
+    border: 1px solid theme('borderColor.DEFAULT');
+    font-size: 13px;
+}
+
+.ay-entity-list .ay-entity-list__item-avatar-container {
+    @apply flex items-center overflow-hidden self-center w-4/12;
+}
+
+.ay-entity-list .ay-entity-list__item-avatar {
+    @apply mie-4;
+}
+
+.ay-entity-list .ay-entity-list__item-avatar-inner {
+    @apply avatar-md avatar;
+}
+
+.ay-entity-list .ay-entity-list__item-avatar-image {
+    @apply avatar-image;
+}
+
+.ay-entity-list .ay-entity-list__item-avatar-initials {
+    @apply rounded-full bg-black w-full h-full;
+}
+
+.ay-entity-list .ay-entity-list__item-avatar-title {
+    @apply block font-bold;
+}
+
+.ay-entity-list .ay-entity-list__item-avatar-subtitle {
+    @apply text-dark-grey;
+}
+
+.ay-entity-list .ay-entity-list__item-avatar-loader {
+    @apply pt-2 m-0;
+}
+
+.ay-entity-list .ay-entity-list__item-content-container {
+    @apply self-center w-3/12;
+}
+
+.ay-entity-list .ay-entity-list__item-badge-container {
+    @apply self-center w-3/12 flex h-full;
+}
+
+.ay-entity-list .ay-entity-list__item-actions-container {
+    @apply self-center w-2/12;
+}
+
+.ay-entity-list .ay-entity-list__item-actions-inner {
+    @apply flex shrink-0 justify-end pis-4 mis-auto h-full;
+}

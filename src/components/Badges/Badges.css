@@ -1,0 +1,7 @@
+.ay-badges {
+    @apply inline-flex;
+}
+
+.ay-badges .ay-badge + .ay-badge {
+    @apply ml-1;
+}

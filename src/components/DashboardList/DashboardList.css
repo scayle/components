@@ -1,0 +1,27 @@
+.ay-dashboard-list {
+    @apply card px-0 py-5;
+}
+
+.ay-dashboard-list__header {
+    @apply flex justify-between items-start px-6 mb-6;
+}
+
+.ay-dashboard-list__header-title {
+    @apply headline-15 text-black;
+}
+
+.ay-dashboard-list__header-subtitle {
+    @apply text-base text-dark-grey;
+}
+
+.ay-dashboard-list__loader {
+    @apply m-auto;
+}
+
+.ay-dashboard-list__empty-state-message {
+    @apply m-auto w-full text-center text-dark-grey;
+}
+
+.ay-dashboard-list__content {
+    @apply text-base font-bold text-black;
+}

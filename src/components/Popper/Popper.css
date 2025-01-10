@@ -1,0 +1,52 @@
+.ay-popper {
+    @apply w-min relative;
+}
+
+.ay-popper:focus,
+.ay-popper:focus-visible {
+    @apply border-primary;
+}
+
+.ay-popper__reference {
+    @apply w-min;
+}
+
+.ay-popper__tooltip {
+    @apply z-tooltip absolute;
+}
+
+.ay-popper__tooltip:not(.ay-popper__tooltip--headless) {
+    @apply w-full;
+}
+
+.ay-popper__tooltip-content {
+    @apply z-tooltip rounded;
+}
+
+.ay-popper__arrow {
+    @apply -z-1 w-2 h-2;
+}
+
+.ay-popper__arrow > div {
+    @apply w-2 h-2 border rotate-45 bg-black;
+}
+
+[data-popper-placement^='top'] > .ay-popper__arrow {
+    bottom: -4px;
+}
+
+[data-popper-placement^='bottom'] > .ay-popper__arrow {
+    top: -4px;
+}
+
+[data-popper-placement^='left'] > .ay-popper__arrow {
+    right: -4px;
+}
+
+[data-popper-placement^='right'] > .ay-popper__arrow {
+    left: -4px;
+}
+
+.ay-popper__tooltip-content.ay-popper-default {
+    @apply rounded shadow px-2 py-1 bg-black;
+}

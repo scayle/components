@@ -1,0 +1,43 @@
+.ay-dashboard-list-item {
+    @apply flex overflow-hidden items-center py-1 px-6 text-base;
+}
+
+.ay-dashboard-list-item__avatar {
+    @apply avatar my-2 mie-5;
+}
+
+.ay-dashboard-list-item__avatar-initials {
+    @apply rounded-full;
+}
+
+.ay-dashboard-list-item__label {
+    @apply grow truncate;
+}
+
+.ay-dashboard-list-item:nth-child(2n-1) {
+    @apply bg-light;
+}
+
+.ay-dashboard-list-item:nth-child(6n) .ay-dashboard-list-item__avatar-initials {
+    @apply bg-green;
+}
+
+.ay-dashboard-list-item:nth-child(6n-1) .ay-dashboard-list-item__avatar-initials {
+    @apply bg-red;
+}
+
+.ay-dashboard-list-item:nth-child(6n-2) .ay-dashboard-list-item__avatar-initials {
+    @apply bg-purple;
+}
+
+.ay-dashboard-list-item:nth-child(6n-3) .ay-dashboard-list-item__avatar-initials {
+    @apply bg-cyan;
+}
+
+.ay-dashboard-list-item:nth-child(6n-4) .ay-dashboard-list-item__avatar-initials {
+    @apply bg-blue;
+}
+
+.ay-dashboard-list-item:nth-child(6n-5) .ay-dashboard-list-item__avatar-initials {
+    @apply bg-yellow;
+}

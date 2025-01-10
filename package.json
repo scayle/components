@@ -1,0 +1,156 @@
+{
+  "name": "@scayle/components",
+  "description": "A set of components for the Scayle Panel and Add-Ons",
+  "homepage": "https://www.scayle.com/",
+  "version": "3.0.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aboutyou/panel-packages",
+    "directory": "components"
+  },
+  "scripts": {
+    "unit": "vitest --run",
+    "unit:watch": "vitest",
+    "build": "vite build && vue-tsc --declaration --emitDeclarationOnly --outDir types",
+    "build:watch": "vite build --watch",
+    "typecheck": "vue-tsc --noEmit",
+    "format": "prettier --config .prettierrc.js",
+    "format-style": "prettier --config .prettierrc.js",
+    "lint": "eslint 'src/**/*.{vue,ts,js}'",
+    "storybook": "storybook dev -p 6006",
+    "docs": "storybook build --docs -o docs",
+    "build-storybook": "storybook build",
+    "checkchange": "beachball check",
+    "change": "beachball change --no-commit --package=@scayle/components",
+    "release": "beachball publish --access public"
+  },
+  "keywords": [
+    "scayle",
+    "scayle panel",
+    "panel",
+    "scayle panel components",
+    "panel components",
+    "scayle panel add-on",
+    "panel-add-on",
+    "add-on"
+  ],
+  "main": "./dist/components.umd.js",
+  "module": "./dist/components.es.js",
+  "types": "./types/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/components.es.js",
+      "require": "./dist/components.umd.js",
+      "types": "./types/index.d.ts"
+    },
+    "./dist/*": "./dist/*",
+    "./types/*": "./types/*"
+  },
+  "files": [
+    "dist/*",
+    "types/*",
+    "CHANGELOG.json",
+    "CHANGELOG.md",
+    "LICENSE",
+    "README.md"
+  ],
+  "volta": {
+    "node": "16.19.0",
+    "npm": "9.4.0"
+  },
+  "dependencies": {
+    "chart.js": "^4.2.1"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^5.0.0",
+    "@popperjs/core": "^2.11.6",
+    "@scayle/panel-icons": "^2.0.1",
+    "@scayle/tailwind-base": "^2.0.0",
+    "@storybook/addon-actions": "^7.0.17",
+    "@storybook/addon-docs": "^7.1.1",
+    "@storybook/addon-essentials": "^7.0.17",
+    "@storybook/addon-interactions": "^7.0.17",
+    "@storybook/addon-links": "^7.0.17",
+    "@storybook/addon-postcss": "^2.0.0",
+    "@storybook/testing-library": "^0.1.0",
+    "@storybook/vue3": "^7.0.17",
+    "@storybook/vue3-vite": "^7.0.17",
+    "@types/color": "^3.0.3",
+    "@types/country-flag-icons": "^1.2.0",
+    "@types/dompurify": "^2.3.4",
+    "@types/lodash.isplainobject": "^4.0.7",
+    "@types/lodash.merge": "^4.6.7",
+    "@types/node": "^16.18.11",
+    "@typescript-eslint/parser": "^5.42.1",
+    "@vitejs/plugin-vue": "^3.2.0",
+    "@vitest/coverage-c8": "^0.28.5",
+    "@vue/compiler-sfc": "^3.2.41",
+    "@vue/test-utils": "^2.2.1",
+    "@vue/tsconfig": "^0.1.3",
+    "@vueuse/components": "^9.5.0",
+    "beachball": "^2.47.1",
+    "color": "^4.2.3",
+    "country-flag-icons": "^1.5.5",
+    "css-loader": "^6.7.1",
+    "cssnano": "^5.1.14",
+    "dom-storage": "^2.1.0",
+    "dompurify": "^2.4.7",
+    "eslint": "^8.28.0",
+    "eslint-formatter-gitlab": "^4.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-no-unsanitized": "^4.0.1",
+    "eslint-plugin-storybook": "^0.6.12",
+    "eslint-plugin-unicorn": "^45.0.2",
+    "eslint-plugin-vue": "^9.7.0",
+    "fast-check": "^3.3.0",
+    "jsdom": "^21.0.0",
+    "json-stringify-deterministic": "^1.0.8",
+    "lint-staged": "^13.0.3",
+    "lodash.isplainobject": "^4.0.6",
+    "lodash.merge": "^4.6.2",
+    "mini-css-extract-plugin": "^2.6.1",
+    "nanoid": "^4.0.0",
+    "postcss": "^8.4.18",
+    "postcss-dir-pseudo-class": "^6.0.5",
+    "postcss-loader": "^7.0.2",
+    "postcss-logical": "^5.0.4",
+    "prettier": "^2.7.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup-plugin-visualizer": "^5.8.3",
+    "storybook": "^7.0.17",
+    "storybook-i18n": "^2.0.13",
+    "stylelint": "^14.14.1",
+    "stylelint-config-standard": "^29.0.0",
+    "stylelint-formatter-gitlab": "^1.0.2",
+    "tailwindcss": "^3.2.2",
+    "tailwindcss-logical": "^3.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4",
+    "unplugin-icons": "^0.15.1",
+    "unplugin-vue-components": "^0.22.9",
+    "vite": "^3.2.4",
+    "vite-raw-plugin": "^1.0.2",
+    "vite-svg-loader": "^4.0.0",
+    "vitest": "^0.28.5",
+    "vitest-canvas-mock": "^0.3.3",
+    "vue": "^3.2.41",
+    "vue-chartjs": "^5.2.0",
+    "vue-eslint-parser": "^9.1.0",
+    "vue-tsc": "^1.0.9"
+  },
+  "peerDependencies": {
+    "vue": ">= 3.2.0"
+  },
+  "prettier": {
+    "overrides": [
+      {
+        "files": "package.json",
+        "options": {
+          "tabWidth": 2
+        }
+      }
+    ]
+  }
+}

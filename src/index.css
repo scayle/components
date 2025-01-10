@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ay-btn-group {
+    @apply btn-group;
+}
+
+.ay-btn {
+    @apply btn;
+}
+
+.ay-btn-group > .ay-btn:not(:first-child) {
+    border-start-start-radius: 0;
+    border-end-start-radius: 0;
+    margin-inline-start: -1px;
+}
+
+.ay-btn-group > .ay-btn:not(:last-child) {
+    border-start-end-radius: 0;
+    border-end-end-radius: 0;
+}
+
+.ay-is-required {
+    @apply is-required;
+}

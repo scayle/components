@@ -1,0 +1,51 @@
+.ay-off-canvas {
+    @apply overflow-hidden z-modal p-0 text-base bg-white shadow m-0 fixed mis-auto min-h-screen;
+
+    width: 32rem;
+}
+
+.ay-off-canvas[open] {
+    @apply flex flex-col;
+}
+
+.ay-off-canvas::backdrop {
+    @apply bg-black bg-opacity-50;
+}
+
+.ay-off-canvas__header {
+    @apply p-4 bg-dark border-b relative flex items-center;
+}
+
+.ay-off-canvas__body {
+    @apply py-2 px-5 flex-grow;
+}
+
+.ay-off-canvas__footer {
+    @apply flex p-4 w-full bg-dark border-t justify-between;
+}
+
+.ay-off-canvas__header-title {
+    @apply headline-15 mie-auto;
+}
+
+.ay-off-canvas__close-btn {
+    @apply btn button-reset p-0 w-6 h-6 outline-none;
+}
+
+.ay-off-canvas-slide-in-enter-active::backdrop {
+    @apply animate-fade-in;
+}
+
+.ay-off-canvas-slide-in-leave-active::backdrop {
+    @apply animate-fade-out;
+}
+
+.ay-off-canvas-slide-in-enter-active,
+.ay-off-canvas-slide-in-leave-active {
+    @apply transition-transform duration-300 ease-in-out;
+}
+
+.ay-off-canvas-slide-in-enter-from,
+.ay-off-canvas-slide-in-leave-to {
+    transform: translateX(calc(100% * var(--translate-x-multiplier)));
+}

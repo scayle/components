@@ -1,0 +1,118 @@
+.info-banner .card-body {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.info-banner .icon-wrapper {
+    width: 45px;
+}
+
+.info-banner .icon-wrapper .icon-wrapper-lvl1 {
+    width: 40px;
+    height: 40px;
+
+    @apply bg-light;
+
+    margin: 0 5px;
+    border-radius: 20px;
+    display: inline-flex;
+}
+
+.info-banner .icon-wrapper .icon-wrapper-lvl1.default {
+    @apply bg-light;
+}
+
+.info-banner .icon-wrapper .icon-wrapper-lvl1.warning {
+    @apply bg-warning bg-opacity-25;
+}
+
+.info-banner .icon-wrapper .icon-wrapper-lvl1.danger {
+    @apply bg-danger bg-opacity-25;
+}
+
+.info-banner .icon-wrapper .icon-wrapper-lvl1.info {
+    @apply bg-blue bg-opacity-25;
+}
+
+.info-banner .icon-wrapper .icon-wrapper-lvl1.success {
+    @apply bg-green bg-opacity-25;
+}
+
+.info-banner .icon-wrapper .icon-wrapper-lvl1 .icon-wrapper-lvl2 {
+    width: 30px;
+    height: 30px;
+
+    @apply bg-dark;
+
+    margin: auto;
+    border-radius: 15px;
+    display: flex;
+    font-size: 16px;
+}
+
+.info-banner .icon-wrapper .icon-wrapper-lvl1 .icon-wrapper-lvl2.default {
+    @apply bg-secondary;
+}
+
+.info-banner .icon-wrapper .icon-wrapper-lvl1 .icon-wrapper-lvl2.warning {
+    @apply bg-warning;
+}
+
+.info-banner .icon-wrapper .icon-wrapper-lvl1 .icon-wrapper-lvl2.danger {
+    @apply bg-danger;
+}
+
+.info-banner .icon-wrapper .icon-wrapper-lvl1 .icon-wrapper-lvl2.info {
+    @apply bg-blue;
+}
+
+.info-banner .icon-wrapper .icon-wrapper-lvl1 .icon-wrapper-lvl2.success {
+    @apply bg-green;
+}
+
+.info-banner .icon-wrapper .icon-wrapper-lvl1 .icon-wrapper-lvl2 .icon-svg {
+    @apply text-white;
+
+    margin: auto;
+    display: block;
+}
+
+.info-banner .text {
+    text-align: start;
+    margin-inline-start: 15px;
+}
+
+.info-banner .text .title {
+    @apply text-sm;
+
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.7;
+    letter-spacing: 1.5px;
+
+    @apply text-black;
+
+    text-transform: uppercase;
+}
+
+.info-banner .text .subtitle {
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+
+    @apply text-dark-grey;
+
+    word-break: break-word;
+    white-space: normal;
+    width: 100%;
+}
+
+.info-banner .action {
+    align-self: center;
+    margin-inline-start: auto;
+}

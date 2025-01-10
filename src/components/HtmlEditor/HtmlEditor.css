@@ -1,0 +1,32 @@
+.ay-html-editor .ay-html-editor__button {
+    @apply btn btn-icon-only border-b-0 shadow-none rounded-bl-none rounded-br-none;
+}
+
+.ay-html-editor .ay-html-editor__button:first-child {
+    @apply rounded-tr-none border-r-0;
+}
+
+.ay-html-editor .ay-html-editor__button:last-child {
+    @apply rounded-tl-none border-l-0;
+}
+
+.ay-html-editor .ay-html-editor__button:not(:first-child, :last-child) {
+    @apply rounded-tl-none rounded-tr-none;
+}
+
+.ay-html-editor .ay-html-editor__text textarea,
+.ay-html-editor .ay-html-editor__preview > div {
+    @apply form-control;
+
+    min-height: 56px;
+}
+
+.ay-html-editor .ay-html-editor__preview > div {
+    @apply overflow-auto resize-y h-auto;
+
+    max-height: 120px;
+}
+
+.ay-html-editor .ay-html-editor__text textarea {
+    @apply rounded-tl-none;
+}

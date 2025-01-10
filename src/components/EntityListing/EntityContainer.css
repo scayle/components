@@ -1,0 +1,11 @@
+.ay-entity-container .ay-entity-container__header {
+    @apply mb-4;
+}
+
+.ay-entity-container .ay-entity-container__button {
+    @apply btn btn-primary inline-flex items-center mis-4;
+}
+
+.ay-entity-container .ay-tabs .ay-tabs__tab-button-container {
+    @apply w-full;
+}

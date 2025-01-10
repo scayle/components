@@ -1,0 +1,19 @@
+.ay-color-input {
+    @apply flex items-center;
+}
+
+.ay-color-input__picker input {
+    @apply hidden;
+}
+
+.ay-color-input__picker label {
+    @apply h-full block rounded-is p-1;
+
+    width: 60px;
+    height: 36px;
+}
+
+.ay-color-input__input .ay-input__inner,
+.ay-color-input__input .ay-input__inner input {
+    @apply rounded-is-none border-is-0;
+}

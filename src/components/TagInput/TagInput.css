@@ -1,0 +1,35 @@
+.ay-tag-input {
+    @apply overflow-hidden border rounded bg-white;
+}
+
+.ay-tag-input--default:focus-within {
+    @apply border-primary;
+}
+
+.ay-tag-input--info:focus-within {
+    @apply border-info;
+}
+
+.ay-tag-input--warning:focus-within {
+    @apply border-warning;
+}
+
+.ay-tag-input--danger:focus-within {
+    @apply border-danger;
+}
+
+.ay-tag-input--success:focus-within {
+    @apply border-success;
+}
+
+.ay-tag-input__tags-wrapper {
+    @apply mx-2 my-1 gap-1 flex flex-wrap;
+}
+
+.ay-tag-input .ay-tag-input__text-input input {
+    @apply outline-none shadow-none border-none;
+}
+
+.ay-tag-input .ay-tag-input__text-input {
+    @apply w-full;
+}

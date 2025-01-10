@@ -1,0 +1,15 @@
+.ay-card {
+    @apply card;
+}
+
+.ay-card .ay-card__header {
+    @apply card-header;
+}
+
+.ay-card .ay-card__body {
+    @apply card-body;
+}
+
+.ay-card .ay-card__footer {
+    @apply card-footer;
+}

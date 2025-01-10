@@ -1,0 +1,28 @@
+.ay-dashboard-statistic {
+    @apply card flex flex-row items-center p-6;
+
+    min-height: 139px;
+}
+
+.ay-dashboard-statistic__icon {
+    @apply inline-flex rounded-full bg-opacity-10 items-center justify-around mie-6;
+
+    height: 60px;
+    width: 60px;
+}
+
+.ay-dashboard-statistic__icon svg {
+    @apply icon-lg;
+}
+
+.ay-dashboard-statistic__value {
+    @apply headline-26 text-black;
+}
+
+.ay-dashboard-statistic__label {
+    @apply headline-15 mt-1 mb-2 text-black;
+}
+
+.ay-dashboard-statistic__label--secondary {
+    @apply text-base text-dark-grey;
+}

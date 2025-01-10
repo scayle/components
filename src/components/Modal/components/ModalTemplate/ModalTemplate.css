@@ -1,0 +1,67 @@
+.ay-modal {
+    @apply overflow-hidden z-modal p-0 text-base bg-white rounded shadow;
+
+    max-width: 80vw;
+    max-height: 80vh;
+    margin-top: 15vh;
+}
+
+.ay-modal[open] {
+    @apply flex flex-col;
+}
+
+.ay-modal::backdrop {
+    @apply bg-black bg-opacity-50;
+}
+
+.ay-modal__header {
+    @apply p-4 bg-dark border-b relative flex items-center;
+}
+
+.ay-modal__body {
+    @apply py-2 px-5 overflow-y-auto;
+}
+
+.ay-modal__footer {
+    @apply flex p-4 w-full bg-dark border-t justify-between;
+}
+
+.ay-modal__button {
+    @apply btn;
+}
+
+.ay-modal__button .spinner {
+    @apply text-white;
+}
+
+.ay-modal__submit-button {
+    @apply btn btn-primary self-stretch text-white;
+}
+
+.ay-modal__delete-button {
+    @apply btn btn-danger self-stretch text-white;
+}
+
+.ay-modal__header-title {
+    @apply headline-15 mie-auto;
+}
+
+.ay-modal__close-btn {
+    @apply btn button-reset p-0 w-6 h-6 outline-none;
+}
+
+.ay-modal.ay-modal-fade-enter-active {
+    @apply animate-fade-in-up;
+}
+
+.ay-modal.ay-modal-fade-leave-active {
+    @apply animate-fade-out;
+}
+
+.ay-modal.ay-modal-fade-enter-active::backdrop {
+    @apply animate-fade-in;
+}
+
+.ay-modal.ay-modal-fade-leave-active::backdrop {
+    @apply animate-fade-out;
+}

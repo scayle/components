@@ -1,0 +1,23 @@
+.ay-badge {
+    @apply badge;
+}
+
+.ay-badge.ay-badge--primary {
+    @apply badge-primary;
+}
+
+.ay-badge.ay-badge--secondary {
+    @apply badge-secondary;
+}
+
+.ay-badge.ay-badge--info {
+    @apply badge-info;
+}
+
+.ay-badge.ay-badge--warning {
+    @apply badge-warning;
+}
+
+.ay-badge.ay-badge--danger {
+    @apply badge-danger;
+}

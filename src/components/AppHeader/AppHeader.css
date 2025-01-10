@@ -1,0 +1,17 @@
+.ay-app-content-header {
+    @apply flex items-center;
+}
+
+.ay-app-content-header .ay-app-content-header__head {
+    @apply grow;
+}
+
+.ay-app-content-header .ay-app-content-header__head > h2 {
+    @apply leading-9 font-black tracking-normal mb-2;
+
+    font-size: 26px;
+}
+
+.ay-app-content-header .ay-app-content-header__content {
+    @apply inline-flex self-center mis-auto;
+}

@@ -1,0 +1,38 @@
+.ay-dropdown-container {
+    @apply bg-white border p-2 rounded border shadow-sm max-h-60 overflow-auto list-none;
+}
+
+.ay-dropdown {
+    @apply list-none p-2;
+}
+
+.ay-dropdown-item {
+    @apply -mx-2;
+}
+
+.ay-dropdown-item .ay-popper {
+    @apply w-full;
+}
+
+.ay-dropdown-item .ay-popper .ay-popper__reference {
+    @apply w-full;
+}
+
+.ay-dropdown-item:not([disabled='true']):hover {
+    @apply bg-light cursor-pointer;
+}
+
+.ay-dropdown-enter-from,
+.ay-dropdown-leave-to {
+    opacity: 0;
+}
+
+.ay-dropdown-enter-to,
+.ay-dropdown-leave-from {
+    opacity: 1;
+}
+
+.ay-dropdown-enter-active,
+.ay-dropdown-leave-active {
+    transition: opacity 0.3s;
+}

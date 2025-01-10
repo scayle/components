@@ -1,0 +1,13 @@
+.ay-pagination-layout {
+    @apply bg-white py-4 px-5 flex justify-between items-center rounded-md flex-wrap gap-4;
+
+    border-width: 1px;
+}
+
+.ay-pagination-layout .ay-pagination-layout__info {
+    @apply inline-block mis-5 text-base text-dark-grey;
+}
+
+.ay-pagination-layout .ay-pagination-layout__group {
+    @apply flex items-center;
+}

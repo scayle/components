@@ -1,0 +1,24 @@
+.ay-search:focus-within .ay-search__search-icon {
+    @apply text-primary;
+}
+
+.ay-search .ay-search__search-icon,
+.ay-search .ay-search__loading-icon {
+    @apply my-auto w-4 h-4;
+}
+
+.ay-search .ay-search__loading-icon {
+    @apply animate-spin;
+}
+
+.ay-search .ay-input {
+    @apply w-full;
+}
+
+.ay-search .ay-search__input {
+    @apply grow;
+}
+
+.ay-search .ay-input__inner {
+    @apply grow;
+}

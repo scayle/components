@@ -1,0 +1,739 @@
+{
+  "name": "@scayle/components",
+  "entries": [
+    {
+      "date": "Wed, 08 Jan 2025 08:45:36 GMT",
+      "version": "3.0.0",
+      "tag": "@scayle/components_v3.0.0",
+      "comments": {
+        "major": [
+          {
+            "author": "pascal.rieger@scayle.com",
+            "package": "@scayle/components",
+            "commit": "83c7af70cfd2d1c1928fa6b2984526b384367a9a",
+            "comment": "Change name property of NumbersWidget"
+          }
+        ],
+        "patch": [
+          {
+            "author": "raymond.rodrigues@scayle.com",
+            "package": "@scayle/components",
+            "commit": "fb718427d0943c46c1713810ee005136d0b83aa3",
+            "comment": "AYCP-18883: bump dependencies"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Wed, 27 Nov 2024 07:21:56 GMT",
+      "version": "2.0.0",
+      "tag": "@scayle/components_v2.0.0",
+      "comments": {
+        "major": [
+          {
+            "author": "pascal.rieger@scayle.com",
+            "package": "@scayle/components",
+            "commit": "d3adb222bc1a808127ede3b164f14c785275ff5f",
+            "comment": "Update panel-icons implementation and dependencies"
+          },
+          {
+            "author": "beachball",
+            "package": "@scayle/components",
+            "comment": "Bump @scayle/tailwind-base to v2.0.0",
+            "commit": "not available"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Thu, 12 Sep 2024 12:58:25 GMT",
+      "version": "1.12.4",
+      "tag": "@scayle/components_v1.12.4",
+      "comments": {
+        "patch": [
+          {
+            "author": "beachball",
+            "package": "@scayle/components",
+            "comment": "Bump @scayle/panel-icons to v1.4.2",
+            "commit": "not available"
+          },
+          {
+            "author": "beachball",
+            "package": "@scayle/components",
+            "comment": "Bump @scayle/tailwind-base to v1.2.4",
+            "commit": "not available"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Mon, 19 Aug 2024 09:06:05 GMT",
+      "version": "1.12.3",
+      "tag": "@scayle/components_v1.12.3",
+      "comments": {
+        "patch": [
+          {
+            "author": "beachball",
+            "package": "@scayle/components",
+            "comment": "Bump @scayle/panel-icons to v1.4.1",
+            "commit": "not available"
+          },
+          {
+            "author": "beachball",
+            "package": "@scayle/components",
+            "comment": "Bump @scayle/tailwind-base to v1.2.3",
+            "commit": "not available"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Thu, 15 Aug 2024 07:56:00 GMT",
+      "version": "1.12.2",
+      "tag": "@scayle/components_v1.12.2",
+      "comments": {
+        "patch": [
+          {
+            "author": "beachball",
+            "package": "@scayle/components",
+            "comment": "Bump @scayle/panel-icons to v1.4.0",
+            "commit": "not available"
+          },
+          {
+            "author": "beachball",
+            "package": "@scayle/components",
+            "comment": "Bump @scayle/tailwind-base to v1.2.2",
+            "commit": "not available"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Fri, 26 Jul 2024 08:39:13 GMT",
+      "version": "1.12.1",
+      "tag": "@scayle/components_v1.12.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "joao.mendonca@scayle.com",
+            "package": "@scayle/components",
+            "commit": "f622ba910226bd94af62e1ff8160a199aa822f8c",
+            "comment": "Fix the 'Manual Hover' feature for DoughnutChart component."
+          }
+        ]
+      }
+    },
+    {
+      "date": "Thu, 25 Jul 2024 08:38:03 GMT",
+      "version": "1.12.0",
+      "tag": "@scayle/components_v1.12.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "kaloyan.yosifov.ext@aboutyou.com",
+            "package": "@scayle/components",
+            "commit": "dcc9734b30a6f55456b2c841615cb05ec0666f39",
+            "comment": "OCAO-686 - additional options to customize doughnut chart"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Mon, 15 Jul 2024 10:58:21 GMT",
+      "version": "1.11.1",
+      "tag": "@scayle/components_v1.11.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "beachball",
+            "package": "@scayle/components",
+            "comment": "Bump @scayle/panel-icons to v1.3.1",
+            "commit": "not available"
+          },
+          {
+            "author": "beachball",
+            "package": "@scayle/components",
+            "comment": "Bump @scayle/tailwind-base to v1.2.1",
+            "commit": "not available"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Fri, 12 Jul 2024 08:57:01 GMT",
+      "version": "1.11.0",
+      "tag": "@scayle/components_v1.11.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "beachball",
+            "package": "@scayle/components",
+            "comment": "Bump @scayle/panel-icons to v1.3.0",
+            "commit": "not available"
+          },
+          {
+            "author": "beachball",
+            "package": "@scayle/components",
+            "comment": "Bump @scayle/tailwind-base to v1.2.0",
+            "commit": "not available"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Thu, 25 Jan 2024 14:30:06 GMT",
+      "version": "1.10.1",
+      "tag": "@scayle/components_v1.10.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "marcel.domke@scayle.com",
+            "package": "@scayle/components",
+            "commit": "12d3daceb7c75edd45d19189461062aada083cf0",
+            "comment": "chore: updated readme's to match scayle readme template"
+          },
+          {
+            "author": "beachball",
+            "package": "@scayle/components",
+            "comment": "Bump @scayle/panel-icons to v1.2.1",
+            "commit": "not available"
+          },
+          {
+            "author": "beachball",
+            "package": "@scayle/components",
+            "comment": "Bump @scayle/tailwind-base to v1.1.3",
+            "commit": "not available"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Fri, 01 Dec 2023 09:24:27 GMT",
+      "version": "1.10.0",
+      "tag": "@scayle/components_v1.10.0",
+      "comments": {
+        "patch": [
+          {
+            "author": "philipp.hillebrecht@scayle.com",
+            "package": "@scayle/components",
+            "commit": "ef6f387d968c4b2ac4e96215ba7434fde0cafdf1",
+            "comment": "Remove unnecessary formatter function inside of StatisticsTable"
+          }
+        ],
+        "minor": [
+          {
+            "author": "philipp.hillebrecht@scayle.com",
+            "package": "@scayle/components",
+            "commit": "087e9298da639a06f9399348f67cc7a2f766c55e",
+            "comment": "implement DataSelectionModal (including composition API/typescript refactoring)"
+          },
+          {
+            "author": "kaloyan.yosifov.ext@scayle.com",
+            "package": "@scayle/components",
+            "commit": "abc9726bb974b1c4156c47c6f30b67e48e9930ce",
+            "comment": "Support language switcher on storybook"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Fri, 27 Oct 2023 10:52:44 GMT",
+      "version": "1.9.2",
+      "tag": "@scayle/components_v1.9.2",
+      "comments": {
+        "patch": [
+          {
+            "author": "philipp.hillebrecht@scayle.com",
+            "package": "@scayle/components",
+            "commit": "53ca97cc39f85f8e80e3c19c4c5b1c6e6b565dac",
+            "comment": "attempt to fix entity list item typescript error"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Thu, 26 Oct 2023 09:56:08 GMT",
+      "version": "1.9.1",
+      "tag": "@scayle/components_v1.9.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "philipp.hillebrecht@scayle.com",
+            "package": "@scayle/components",
+            "commit": "c762a01ccf0820b732e83864e43d4cc868c2f316",
+            "comment": "Checkbox - implement visual disabled state"
+          },
+          {
+            "author": "philipp.hillebrecht@scayle.com",
+            "package": "@scayle/components",
+            "commit": "a9d849b4ec665819e945bb131dc99c82c01a8cf5",
+            "comment": "re-enable breadcrumbs routing"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Tue, 24 Oct 2023 08:31:26 GMT",
+      "version": "1.9.0",
+      "tag": "@scayle/components_v1.9.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "philipp.hillebrecht@scayle.com",
+            "package": "@scayle/components",
+            "commit": "294cf265a3ba5964a74364864a7a107575c00088",
+            "comment": "add missing descriptions for component props/slots/events"
+          },
+          {
+            "author": "philipp.hillebrecht@scayle.com",
+            "package": "@scayle/components",
+            "commit": "3f5a7499b666b488cd1647c00bcfa3d515af7bc8",
+            "comment": "implement InfoBanner component"
+          },
+          {
+            "author": "beachball",
+            "package": "@scayle/components",
+            "comment": "Bump @scayle/tailwind-base to v1.1.2",
+            "commit": "not available"
+          }
+        ],
+        "patch": [
+          {
+            "author": "christian.buchholz@scayle.com",
+            "package": "@scayle/components",
+            "commit": "30c05f6160f2909d12606c97c17f22b1820ac576",
+            "comment": "Fixed importing icons"
+          },
+          {
+            "author": "christian.buchholz@scayle.com",
+            "package": "@scayle/components",
+            "commit": "8dfc63af608625e80bc1cf282a86d1cf86791a88",
+            "comment": "added disabled state for select components"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Thu, 28 Sep 2023 12:33:21 GMT",
+      "version": "1.8.1",
+      "tag": "@scayle/components_v1.8.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "kaloyan.yosifov.ext@scayle.com",
+            "package": "@scayle/components",
+            "commit": "7d48e900b9cb00c7cd1f534c6f9eb1f6c0b572ac",
+            "comment": "Support Shadow DOM for notifications"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Thu, 31 Aug 2023 12:15:06 GMT",
+      "version": "1.8.0",
+      "tag": "@scayle/components_v1.8.0",
+      "comments": {
+        "patch": [
+          {
+            "author": "philipp.hillebrecht@scayle.com",
+            "package": "@scayle/components",
+            "commit": "77c7269a3db616a9bd41c4d29f1de21160bb946d",
+            "comment": "fix arguments for DashboardList story"
+          },
+          {
+            "author": "philipp.hillebrecht@scayle.com",
+            "package": "@scayle/components",
+            "commit": "6aa43161021f7aec7e6ff148eae0bfb88620cf41",
+            "comment": "add opening button to OffCanvas story"
+          },
+          {
+            "author": "kaloyan.yosifov.ext@scayle.com",
+            "package": "@scayle/components",
+            "commit": "7af23d505df37ba2c8efb6686d29d8054eb733f0",
+            "comment": "Fix bundle bug"
+          },
+          {
+            "author": "philipp.hillebrecht@scayle.com",
+            "package": "@scayle/components",
+            "commit": "5081f7d322306d23abdf3e9fc58a6076368063d5",
+            "comment": "add closeOnSelect prop to Option component"
+          },
+          {
+            "author": "philipp.hillebrecht@scayle.com",
+            "package": "@scayle/components",
+            "commit": "4d2693ced9f3450f87b75c7c8b71951b306c85ce",
+            "comment": "Select component: fix style importing"
+          },
+          {
+            "author": "simon.ellensohn@scayle.com",
+            "package": "@scayle/components",
+            "commit": "290469a985f184f2f79a03bb94448a5b99d22aec",
+            "comment": "Exclude src directory from published bundle"
+          }
+        ],
+        "minor": [
+          {
+            "author": "christian.buchholz@scayle.com",
+            "package": "@scayle/components",
+            "commit": "2756c8955cf5554a0748803e94f86fb8fde3b7ef",
+            "comment": "added FormField component"
+          },
+          {
+            "author": "philipp.hillebrecht@scayle.com",
+            "package": "@scayle/components",
+            "commit": "46b91adc1f8874310133eb0409a9c3c160e2a349",
+            "comment": "update statistics components"
+          },
+          {
+            "author": "philipp.hillebrecht@scayle.com",
+            "package": "@scayle/components",
+            "commit": "3b0ee6ae252e3e4c27fa64e06942d2e3d5a353d4",
+            "comment": "improve code snippets of our stories"
+          },
+          {
+            "author": "kaloyan.yosifov.ext@scayle.com",
+            "package": "@scayle/components",
+            "commit": "fc2b31232bd65aaab8d372cc1c92e692aff0d787",
+            "comment": "extract chart js dependency to the user of the library"
+          },
+          {
+            "author": "philipp.hillebrecht@scayle.com",
+            "package": "@scayle/components",
+            "commit": "d46a9b73bd7cbfc2d0099684a79c49bf20b7d027",
+            "comment": "finish Notification component/composable"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Thu, 06 Jul 2023 08:05:37 GMT",
+      "tag": "@scayle/components_v1.7.0",
+      "version": "1.7.0",
+      "comments": {
+        "patch": [
+          {
+            "author": "philipp.hillebrecht@scayle.com",
+            "package": "@scayle/components",
+            "commit": "0df918d6746c443cbaedd1a05da0e27b0cae9941",
+            "comment": "fix Checkbox margin"
+          },
+          {
+            "author": "philipp.hillebrecht@scayle.com",
+            "package": "@scayle/components",
+            "commit": "b5bf69b38927853bbdc1e512d0e69c85caca5322",
+            "comment": "add textarea component"
+          },
+          {
+            "author": "christian.buchholz@scayle.com",
+            "package": "@scayle/components",
+            "commit": "d15601e5c3c4ba99be55bddac301f54346bd986d",
+            "comment": "modal has now a property to set the width - user can close the modal - a button needs to be clicked to open the modal - footer slot added"
+          },
+          {
+            "author": "philipp.hillebrecht@scayle.com",
+            "package": "@scayle/components",
+            "commit": "c206f31c02750b46649713d774f096ede3dc8603",
+            "comment": "add Custom Placeholder story to Select stories"
+          }
+        ],
+        "minor": [
+          {
+            "author": "philipp.hillebrecht@scayle.com",
+            "package": "@scayle/components",
+            "commit": "f950bb335e4c6a169d05003f3d0261260def9caa",
+            "comment": "finish storybook 7 migration"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Thu, 11 May 2023 12:47:00 GMT",
+      "tag": "@scayle/components_v1.6.3",
+      "version": "1.6.3",
+      "comments": {
+        "patch": [
+          {
+            "author": "philipp.hillebrecht@scayle.com",
+            "package": "@scayle/components",
+            "commit": "3de3f440e0e18d7164da7c67bcb8c9833728eea0",
+            "comment": "export useConfig composable in index.ts file"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Thu, 27 Apr 2023 14:30:21 GMT",
+      "tag": "@scayle/components_v1.6.2",
+      "version": "1.6.2",
+      "comments": {
+        "patch": [
+          {
+            "author": "kaloyan.yosifov.ext@scayle.com",
+            "package": "@scayle/components",
+            "commit": "31d74f5802aa94c2a0ca586995879cb36685c5fa",
+            "comment": "Fix multiselect reactivity"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Thu, 27 Apr 2023 11:58:23 GMT",
+      "tag": "@scayle/components_v1.6.1",
+      "version": "1.6.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "kaloyan.yosifov.ext@scayle.com",
+            "package": "@scayle/components",
+            "commit": "da747d521346222c5415d5d8069988e99bb49d0c",
+            "comment": "support dialog as root node"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Thu, 27 Apr 2023 10:19:11 GMT",
+      "tag": "@scayle/components_v1.6.0",
+      "version": "1.6.0",
+      "comments": {
+        "patch": [
+          {
+            "author": "philipp.hillebrecht@scayle.com",
+            "package": "@scayle/components",
+            "commit": "01003b1cf7440bce0a03644cbd952d8e467128c1",
+            "comment": "implement StatisticsTable component"
+          },
+          {
+            "author": "philipp.hillebrecht@scayle.com",
+            "package": "@scayle/components",
+            "commit": "b93ec18ed45dcdb08831ab12b05895068eacd1ba",
+            "comment": "add missing imports"
+          },
+          {
+            "author": "philipp.hillebrecht@scayle.com",
+            "package": "@scayle/components",
+            "commit": "57ab7c071f7e8db32e489a356bee7d01868ab858",
+            "comment": "ValueAnimation: only animate initial value when \"updateInitialValue\" prop was passed"
+          },
+          {
+            "author": "philipp.hillebrecht@scayle.com",
+            "package": "@scayle/components",
+            "commit": "d5a4112cfc9850118abc0059040812d99df65697",
+            "comment": "improve popper css"
+          },
+          {
+            "author": "philipp.hillebrecht@scayle.com",
+            "package": "@scayle/components",
+            "commit": "9dc389883eb3a4c6b3ca633e83674b83da2ae70f",
+            "comment": "  "
+          },
+          {
+            "author": "philipp.hillebrecht@scayle.com",
+            "package": "@scayle/components",
+            "commit": "c31672a2130e70ecb143f913407752228c73bd2a",
+            "comment": "  "
+          },
+          {
+            "author": "philipp.hillebrecht@scayle.com",
+            "package": "@scayle/components",
+            "commit": "f54f3a62d0432c82e4562daac4a5c3741aca80be",
+            "comment": "add additional null checks"
+          }
+        ],
+        "minor": [
+          {
+            "author": "kaloyan.yosifov.ext@scayle.com",
+            "package": "@scayle/components",
+            "commit": "f99deb9b54b7c932ad25553653fbf2971143b405",
+            "comment": "Refactor popper to support shadow root element teleportation and fix multiselect reactivity"
+          },
+          {
+            "author": "philipp.hillebrecht@scayle.com",
+            "package": "@scayle/components",
+            "commit": "4d67f4cc8c8ccc0577effa3137ebcdb69576ac33",
+            "comment": "Revert \"Merge branch 'feature/-storybook-check-components-for-vue2-compatibility' into 'main'\""
+          }
+        ]
+      }
+    },
+    {
+      "date": "Wed, 29 Mar 2023 13:45:07 GMT",
+      "tag": "@scayle/components_v1.5.0",
+      "version": "1.5.0",
+      "comments": {
+        "patch": [
+          {
+            "author": "christian.buchholz@scayle.com",
+            "package": "@scayle/components",
+            "commit": "332d2b35ce80cec662f2dff030a60573de216cb8",
+            "comment": "added vertical bar chart component"
+          },
+          {
+            "author": "philipp.hillebrecht@scayle.com",
+            "package": "@scayle/components",
+            "commit": "55a1763493f39c2dcabd7e0680f7c88426c2310c",
+            "comment": "Horizontal Bar Chart"
+          },
+          {
+            "author": "philipp.hillebrecht@scayle.com",
+            "package": "@scayle/components",
+            "commit": "e76b73aa3e887685f520ef36bcd598ac4616ee56",
+            "comment": " "
+          }
+        ],
+        "minor": [
+          {
+            "author": "philipp.hillebrecht@scayle.com",
+            "package": "@scayle/components",
+            "commit": "72be3677e377d4055211b519d1ec47efc402bba5",
+            "comment": "implement vue-demi to support vue2 and vue3"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Fri, 17 Mar 2023 10:09:43 GMT",
+      "tag": "@scayle/components_v1.4.0",
+      "version": "1.4.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "kaloyan.yosifov.ext@scayle.com",
+            "package": "@scayle/components",
+            "commit": "c46629e24bc1c8016dd5f027c973c3c423f378d4",
+            "comment": "multiselect support"
+          },
+          {
+            "author": "hector.gonzalez@scayle.com",
+            "package": "@scayle/components",
+            "commit": "906b5f5eeb6435c9c9ca6842141675d8df018470",
+            "comment": "Breadcrumb component added"
+          },
+          {
+            "author": "kaloyan.yosifov.ext@scayle.com",
+            "package": "@scayle/components",
+            "commit": "917790c05e487d0215047c9e3675de60d625ee8c",
+            "comment": "Entity List components"
+          },
+          {
+            "author": "beachball",
+            "package": "@scayle/components",
+            "comment": "Bump @scayle/panel-icons to v1.2.0",
+            "commit": "661bd8a56cd0efc6aa57bc3db363303d61f2534c"
+          },
+          {
+            "author": "beachball",
+            "package": "@scayle/components",
+            "comment": "Bump @scayle/tailwind-base to v1.1.1",
+            "commit": "661bd8a56cd0efc6aa57bc3db363303d61f2534c"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Fri, 10 Feb 2023 14:35:19 GMT",
+      "tag": "@scayle/components_v1.3.0",
+      "version": "1.3.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "marcel.domke@scayle.com",
+            "package": "@scayle/components",
+            "commit": "e672704e39e60ba99438807367032bc899dcd866",
+            "comment": "Added a license file, updated package.json and updated the readme"
+          },
+          {
+            "author": "beachball",
+            "package": "@scayle/components",
+            "comment": "Bump @scayle/panel-icons to v1.1.0",
+            "commit": "bfdea24b17e512434e9b37f6e01b9302269764a6"
+          },
+          {
+            "author": "beachball",
+            "package": "@scayle/components",
+            "comment": "Bump @scayle/tailwind-base to v1.1.0",
+            "commit": "bfdea24b17e512434e9b37f6e01b9302269764a6"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Fri, 27 Jan 2023 14:20:34 GMT",
+      "tag": "@scayle/components_v1.2.0",
+      "version": "1.2.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "kaloyan.yosifov.ext@scayle.com",
+            "package": "@scayle/components",
+            "commit": "b4b3a640f81e30cb312711e472feecc0d90ad236",
+            "comment": "Support for nested dropdown menus"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Fri, 28 Oct 2022 13:33:05 GMT",
+      "tag": "@scayle/components_v1.0.2",
+      "version": "1.0.2",
+      "comments": {
+        "patch": [
+          {
+            "author": "beachball",
+            "package": "@scayle/components",
+            "comment": "Bump @scayle/tailwind-base to v1.0.2",
+            "commit": "e9fb97363a586c583798366b994be2823f674a6b"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Fri, 28 Oct 2022 09:31:52 GMT",
+      "tag": "@scayle/components_v1.0.1",
+      "version": "1.0.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "connor.pearson@scayle.com",
+            "package": "@scayle/components",
+            "commit": "642e2e79d097a8c2d7107fa0ee9b89ae3b456404",
+            "comment": "Update package metadata"
+          },
+          {
+            "author": "beachball",
+            "package": "@scayle/components",
+            "comment": "Bump @scayle/tailwind-base to v1.0.1",
+            "commit": "c3b065759a3f45df8e193add615e574cd8e46bb0"
+          }
+        ]
+      }
+    },
+    {
+      "date": "Thu, 27 Oct 2022 07:48:09 GMT",
+      "tag": "@scayle/components_v1.0.0",
+      "version": "1.0.0",
+      "comments": {
+        "major": [
+          {
+            "author": "connor.pearson@scayle.com",
+            "package": "@scayle/components",
+            "commit": "8e65f59afd8e9f42624765ee6c148577a03c0335",
+            "comment": "New package name"
+          },
+          {
+            "author": "beachball",
+            "package": "@scayle/components",
+            "comment": "Bump @scayle/panel-icons to v1.0.0",
+            "commit": "b1024d425b39edf82b8679e7b53f219678e3a9c0"
+          },
+          {
+            "author": "beachball",
+            "package": "@scayle/components",
+            "comment": "Bump @scayle/tailwind-base to v1.0.0",
+            "commit": "b1024d425b39edf82b8679e7b53f219678e3a9c0"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+.ay-file-input .ay-file-input__outer {
+    @apply p-4 rounded border-2 border-dashed bg-white;
+}
+
+.ay-file-input .ay-file-input__outer--invalid {
+    @apply bg-danger/10 border-danger cursor-not-allowed;
+}
+
+.ay-file-input .ay-file-input__outer--dragging {
+    @apply bg-primary/10 border-primary;
+}
+
+.ay-file-input .ay-file-input__container {
+    @apply flex justify-center items-center p-5;
+}
+
+.ay-file-input .ay-file-input__label {
+    @apply btn mb-0;
+}
+
+.ay-file-input .ay-file-input__input {
+    @apply hidden;
+}
+
+.ay-file-input .ay-file-input__help {
+    @apply mb-0 ml-3 text-sm font-black tracking-wider uppercase;
+}

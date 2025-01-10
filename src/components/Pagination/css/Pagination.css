@@ -1,0 +1,28 @@
+.ay-pagination {
+    @apply inline-flex p-0 font-normal text-dark-grey bg-white;
+}
+
+.ay-pagination .ay-pagination__prev-btn,
+.ay-pagination .ay-pagination__next-btn {
+    @apply btn-icon-only -mie-px rounded-is-md;
+}
+
+.ay-pagination .ay-pagination__prev-btn > svg,
+.ay-pagination .ay-pagination__next-btn > svg {
+    @apply icon icon-md;
+}
+
+.ay-pagination .ay-btn {
+    @apply btn h-9;
+    @apply font-bold leading-none !important;
+
+    font-size: 13px !important;
+}
+
+.ay-pagination .ay-pagination__separator {
+    @apply self-end;
+}
+
+.ay-pagination .ay-pagination__btn--selected {
+    @apply text-primary opacity-100 font-black !important;
+}

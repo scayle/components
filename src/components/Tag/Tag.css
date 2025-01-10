@@ -1,0 +1,62 @@
+.ay-tag {
+    @apply inline-flex items-center border py-0 px-2 h-6 rounded text-sm whitespace-nowrap;
+}
+
+.ay-tag--default {
+    @apply bg-secondary/10 border-secondary/20 text-secondary;
+}
+
+.ay-tag--default .ay-tag__close-btn:hover {
+    @apply bg-secondary/20;
+}
+
+.ay-tag--success {
+    @apply bg-success/10 border-success/20 text-success;
+}
+
+.ay-tag--success .ay-tag__close-btn:hover {
+    @apply bg-success/20;
+}
+
+.ay-tag--info {
+    @apply bg-info/10 border-info/20 text-info;
+}
+
+.ay-tag--info .ay-tag__close-btn:hover {
+    @apply bg-info/20;
+}
+
+.ay-tag--warning {
+    @apply bg-warning/10 border-warning/20 text-warning;
+}
+
+.ay-tag--warning .ay-tag__close-btn:hover {
+    @apply bg-warning/20;
+}
+
+.ay-tag--danger {
+    @apply bg-danger/10 border-danger/20 text-danger;
+}
+
+.ay-tag--danger .ay-tag__close-btn:hover {
+    @apply bg-danger/20;
+}
+
+.ay-tag__close-btn {
+    @apply cursor-pointer mis-1 w-4 h-4 rounded-full;
+}
+
+.ay-tag__close-btn.disabled {
+    @apply cursor-not-allowed hover:bg-disabled;
+}
+
+.ay-tag-fade-enter-active,
+.ay-tag-fade-leave-active {
+    transition: all 300ms;
+}
+
+.ay-tag-fade-enter-from,
+.ay-tag-fade-leave-active {
+    opacity: 0;
+    transform: scaleX(0);
+}
