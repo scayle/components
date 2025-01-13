@@ -1,37 +1,63 @@
 on:
   # Release on push to main
   # push:
-    # branches: [main]
+  # branches: [main]
+
   # Release on manual trigger
   workflow_dispatch:
 
-
 jobs:
-  release_job:
-    # Variable syntax below assumes Linux/Mac but could be easily adapted to Windows
+  update-docs:
+    name: Generate and Update Docs
     runs-on: ubuntu-latest
 
     steps:
-      - name: Check out code
-        uses: actions/checkout@v4
-        with:
-          # Prevent the action from storing credentials in a way that's hard to override
-          persist-credentials: false
+      - name: Checkout Repository
+        uses: actions/checkout@v3
 
-      - name: Install dependencies
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+
+      - name: Install Dependencies
         run: npm install
 
-      # Set the name, email, and URL with PAT
-      - name: Set git credentials
-        run: |
-          git config user.name "SCAYLE"
-          git config user.email "${{ vars.REPO_USER_EMAIL }}"
-          git remote set-url origin "https://$REPO_PAT@github.com/scayle/components"
-        env:
-          REPO_PAT: ${{ secrets.REPO_PAT }}
+      - name: Generate Documentation
+        run: npm run docs
 
-      # Pass the token on the command line for publishing
-      - name: Publish
-        run: npm run release -- --token "$NPM_TOKEN"
-        env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - name: Commit and Push Updated Docs
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@scayle.com"
+          git add docs
+          git commit -m "Update documentation"
+          git push origin main
+#  release_job:
+#    # Variable syntax below assumes Linux/Mac but could be easily adapted to Windows
+#    runs-on: ubuntu-latest
+#
+#    steps:
+#      - name: Check out code
+#        uses: actions/checkout@v4
+#        with:
+#          # Prevent the action from storing credentials in a way that's hard to override
+#          persist-credentials: false
+#
+#      - name: Install dependencies
+#        run: npm install
+#
+#      # Set the name, email, and URL with PAT
+#      - name: Set git credentials
+#        run: |
+#          git config user.name "SCAYLE"
+#          git config user.email "${{ vars.REPO_USER_EMAIL }}"
+#          git remote set-url origin "https://$REPO_PAT@github.com/scayle/components"
+#        env:
+#          REPO_PAT: ${{ secrets.REPO_PAT }}
+#
+#      # Pass the token on the command line for publishing
+#      - name: Publish
+#        run: npm run release -- --token "$NPM_TOKEN"
+#        env:
+#          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
