@@ -1,0 +1,1 @@
+import{u as s,w as a}from"./vue.esm-bundler.b273ba75.js";function i(u){const o=s(null);return a(u,e=>{var l,n;if(!e)return;const r=e.closest?e.closest("dialog"):null;if(r)o.value=r;else{const t=e.getRootNode();o.value=(n=(l=t.querySelector("body"))!=null?l:t.querySelector("div"))!=null?n:t}},{immediate:!0}),{rootElement:o}}export{i as u};

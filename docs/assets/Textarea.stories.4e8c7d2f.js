@@ -1,0 +1,11 @@
+import{e as c,f as t,s,g as o,n as p,E as x,o as a}from"./vue.esm-bundler.b273ba75.js";import{_}from"./_plugin-vue_export-helper.cdc0426e.js";const u=c({name:"Textarea",props:{modelValue:{type:String,default:""}},emits:{["update:modelValue"](e){return!0}}}),g={class:"ay-textarea"},h={key:0,class:"ay-textarea__prepend"},y={key:1,class:"ay-textarea__append"},T={class:"ay-textarea__inner"},$={key:0,class:"ay-textarea__prefix"},v={key:1,class:"ay-textarea__suffix"},V=["value"];function k(e,n,D,N,w,B){return a(),t("div",g,[e.$slots.prepend?(a(),t("div",h,[s(e.$slots,"prepend")])):o("",!0),e.$slots.append?(a(),t("div",y,[s(e.$slots,"append")])):o("",!0),p("div",T,[e.$slots.prefix?(a(),t("span",$,[s(e.$slots,"prefix")])):o("",!0),e.$slots.suffix?(a(),t("span",v,[s(e.$slots,"suffix")])):o("",!0),p("textarea",x(e.$attrs,{value:e.modelValue,onInput:n[0]||(n[0]=f=>e.$emit("update:modelValue",f.target.value))}),null,16,V)])])}const m=_(u,[["render",k]]);u.__docgenInfo={displayName:"Textarea",exportName:"default",description:"",tags:{},props:[{name:"modelValue",type:{name:"string"},defaultValue:{func:!1,value:"''"}}],events:[{name:"update:modelValue"}],slots:[{name:"prepend"},{name:"append"},{name:"prefix"},{name:"suffix"}],sourceFiles:["/home/runner/work/components/components/src/components/Textarea/Textarea.vue"]};const b={title:"Components/Textarea",component:m,argTypes:{prepend:{description:"Slot for displaying something on the left of the textarea (outside)"},append:{description:"Slot for displaying something on the right of the textarea (outside)"},prefix:{description:"Slot for displaying something on the left of the textarea (inside)"},suffix:{description:"Slot for displaying something on the right of the textarea (inside)"}}},S={Textarea:m},r=e=>({components:S,setup(){return{args:{...e}}},template:'<Textarea v-bind="args" rows="6" placeholder="Default Textarea"></Textarea>'});var i,l,d;r.parameters={...r.parameters,docs:{...(i=r.parameters)==null?void 0:i.docs,source:{originalSource:`(args: any) => ({
+  components,
+  setup() {
+    return {
+      args: {
+        ...args
+      }
+    };
+  },
+  template: '<Textarea v-bind="args" rows="6" placeholder="Default Textarea"></Textarea>'
+})`,...(d=(l=r.parameters)==null?void 0:l.docs)==null?void 0:d.source}}};const I=["Default"];export{r as Default,I as __namedExportsOrder,b as default};
