@@ -1,8 +1,16 @@
 # Change Log - @scayle/components
 
-This log was last generated on Wed, 08 Jan 2025 08:45:36 GMT and should not be manually modified.
+<!-- This log was last generated on Tue, 14 Jan 2025 14:49:49 GMT and should not be manually modified. -->
 
 <!-- Start content -->
+
+## 3.0.1
+
+Tue, 14 Jan 2025 14:49:49 GMT
+
+### Patches
+
+- update readme.md and package.json (pascal.rieger@scayle.com)
 
 ## 3.0.0
 
