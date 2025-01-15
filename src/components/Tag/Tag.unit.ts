@@ -45,7 +45,8 @@ describe('Tag.vue', () => {
 
         expect(wrapper.find('.ay-tag--default').exists()).toBe(true);
 
-        for (const type of ['info', 'success', 'warning', 'danger']) {
+        const types = ['info', 'success', 'warning', 'danger'] as const;
+        for (const type of types) {
             await wrapper.setProps({ type });
             expect(wrapper.find('.ay-tag--' + type).exists()).toBe(true);
         }

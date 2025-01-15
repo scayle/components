@@ -7,7 +7,7 @@ describe('Spinner.vue', () => {
     it('should change the size class based on the size prop', async () => {
         const wrapper = mount(Spinner);
 
-        const sizes = ['xs', 'sm', 'md', 'lg', 'xl'];
+        const sizes = ['xs', 'sm', 'md', 'lg', 'xl'] as const;
 
         for (const size of sizes) {
             await wrapper.setProps({ size });
