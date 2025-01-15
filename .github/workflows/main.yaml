@@ -7,13 +7,13 @@ on:
   workflow_dispatch:
 
 jobs:
-  update-docs:
-    name: Generate and Update Docs
+  build:
+    name: Build and Update Docs
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
@@ -23,19 +23,25 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
+      - name: Run Build Process
+        run: npm run build
+
       - name: Generate Documentation
         run: npm run docs
 
-      - name: Commit and Push Updated Docs
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@scayle.com"
-          git add docs
-          git commit -m "Update documentation"
-          git push origin main
-  release_job:
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: build-artifacts
+          path: |
+            dist
+            docs
+            types
+
+  release:
     # Variable syntax below assumes Linux/Mac but could be easily adapted to Windows
     runs-on: ubuntu-latest
+    needs: build
 
     steps:
       - name: Check out code
@@ -46,6 +52,11 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+
+      - name: Download build artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: build-artifacts
 
       # Set the name, email, and URL with PAT
       - name: Set git credentials
