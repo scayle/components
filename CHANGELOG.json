@@ -2,6 +2,21 @@
   "name": "@scayle/components",
   "entries": [
     {
+      "date": "Wed, 15 Jan 2025 09:45:06 GMT",
+      "version": "3.0.2",
+      "tag": "@scayle/components_v3.0.2",
+      "comments": {
+        "patch": [
+          {
+            "author": "pascal.rieger@scayle.com",
+            "package": "@scayle/components",
+            "commit": "44d70006675313531e764faeec3f45dfbc5bc0f9",
+            "comment": "update readme.md and package.json"
+          }
+        ]
+      }
+    },
+    {
       "date": "Tue, 14 Jan 2025 14:49:49 GMT",
       "version": "3.0.1",
       "tag": "@scayle/components_v3.0.1",

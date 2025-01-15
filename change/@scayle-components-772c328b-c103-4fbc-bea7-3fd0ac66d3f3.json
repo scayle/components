@@ -1,7 +1,0 @@
-{
-  "type": "patch",
-  "comment": "update readme.md and package.json",
-  "packageName": "@scayle/components",
-  "email": "pascal.rieger@scayle.com",
-  "dependentChangeType": "patch"
-}
