@@ -1,21 +1,21 @@
 ![scayle-logo-cr](https://cdn-prod.scayle.com/public/media/general/SCAYLE-Commerce-Engine-header.png)
 
 <h1 align="center">
-  SCAYLE Component Library
+  SCAYLE Components Library
 </h1>
 
 <h4 align="center">
-  <a href="https://scayle.dev">Documentation</a> |
+  <a href="https://scayle.dev/en/add-on-guide/getting-started/components-library">Documentation</a> |
   <a href="https://www.scayle.com/">Website</a>
 </h4>
 
 <p align="center">
-  The SCAYLE <strong>Component Library</strong> offers essential components for developing SCAYLE Panel Add-ons written in Vue.js 3.
+  The SCAYLE <strong>Components Library</strong> offers essential components for developing SCAYLE Panel Add-ons written in Vue.js 3.
 </p>
 
 <p align="center">
-<a href="https://www.npmjs.com/package/@scayle/panel-icons"><img src="https://img.shields.io/badge/components-45-success" alt="Components counter"></a>
-  <a href="https://www.npmjs.com/package/@scayle/panel-icons"><img src="https://img.shields.io/npm/v/@scayle/components" alt="Latest Release"></a>
+<a href="https://www.npmjs.com/package/@scayle/components"><img src="https://img.shields.io/badge/components-45-success" alt="Components counter"></a>
+  <a href="https://www.npmjs.com/package/@scayle/components"><img src="https://img.shields.io/npm/v/@scayle/components" alt="Latest Release"></a>
 <a href="#"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="SCAYLE's *Component Library* is released under the MIT license." /></a>
   <a href="https://www.npmjs.com/package/@scayle/components"><img src="https://img.shields.io/npm/dt/@scayle/components" alt="Total Downloads"></a>
 </p>
@@ -23,6 +23,8 @@
 ## Getting Started
 
 Visit the [Add-On Developer Guide](https://scayle.dev/en/add-on-guide) to learn more on how to use the components.
+
+Visit the [Components Upgrade Guide](https://scayle.dev/en/add-on-guide/getting-started/components-library) to learn more on how to update to the newest version.
 
 Visit the [Docs](https://scayle.dev) to learn more about our system requirements.
 
