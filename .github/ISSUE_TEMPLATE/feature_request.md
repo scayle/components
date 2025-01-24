@@ -7,6 +7,9 @@ assignees: ''
 
 ---
 
+**Is your feature request related to an existing component or a new component?**
+Name of existing component or suggest name for new component.
+
 **Is your feature request related to a problem? Please describe.**
 A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
 
