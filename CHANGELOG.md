@@ -1,8 +1,16 @@
 # Change Log - @scayle/components
 
-<!-- This log was last generated on Mon, 17 Mar 2025 12:37:19 GMT and should not be manually modified. -->
+<!-- This log was last generated on Mon, 17 Mar 2025 13:03:46 GMT and should not be manually modified. -->
 
 <!-- Start content -->
+
+## 3.1.1
+
+Mon, 17 Mar 2025 13:03:46 GMT
+
+### Patches
+
+- Update badge component icon display (pascal.rieger@scayle.com)
 
 ## 3.1.0
 
