@@ -1,0 +1,7 @@
+{
+  "type": "patch",
+  "comment": "Update badge component icon display",
+  "packageName": "@scayle/components",
+  "email": "pascal.rieger@scayle.com",
+  "dependentChangeType": "patch"
+}

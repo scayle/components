@@ -1,6 +1,6 @@
 <template>
     <span :class="className" class="ay-badge">
-        <component :is="icon" v-if="icon" class="icon w-4 h-4 mr-0.5" />
+        <component :is="icon" v-if="icon" class="icon w-3 h-3 mr-0.5" />
         <span v-if="!!label">{{label}}</span>
         <span v-else>{{type}}</span>
     </span>
