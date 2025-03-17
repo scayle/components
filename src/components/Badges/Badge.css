@@ -2,6 +2,12 @@
     @apply badge;
 }
 
+.ay-badge .icon {
+    margin-right: 3px;
+    width: 11px;
+    height: 11px;
+}
+
 .ay-badge.ay-badge--primary {
     @apply badge-primary;
 }
