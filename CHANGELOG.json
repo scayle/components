@@ -2,6 +2,21 @@
   "name": "@scayle/components",
   "entries": [
     {
+      "date": "Mon, 17 Mar 2025 12:37:19 GMT",
+      "version": "3.1.0",
+      "tag": "@scayle/components_v3.1.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "pascal.rieger@scayle.com",
+            "package": "@scayle/components",
+            "commit": "5333acc3d1ac04d338d62bc9cf7e68a4a4d45329",
+            "comment": "Enable icons for badge component"
+          }
+        ]
+      }
+    },
+    {
       "date": "Wed, 15 Jan 2025 09:45:06 GMT",
       "version": "3.0.2",
       "tag": "@scayle/components_v3.0.2",
