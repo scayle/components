@@ -2,6 +2,21 @@
   "name": "@scayle/components",
   "entries": [
     {
+      "date": "Mon, 17 Mar 2025 13:13:38 GMT",
+      "version": "3.1.2",
+      "tag": "@scayle/components_v3.1.2",
+      "comments": {
+        "patch": [
+          {
+            "author": "pascal.rieger@scayle.com",
+            "package": "@scayle/components",
+            "commit": "878b63b397d484ddf0e93b7aecc866ff2da4aae8",
+            "comment": "Update badge component icon display"
+          }
+        ]
+      }
+    },
+    {
       "date": "Mon, 17 Mar 2025 13:03:46 GMT",
       "version": "3.1.1",
       "tag": "@scayle/components_v3.1.1",

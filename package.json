@@ -2,7 +2,7 @@
   "name": "@scayle/components",
   "description": "A set of components for the SCAYLE Panel and Add-ons",
   "homepage": "https://www.scayle.com/",
-  "version": "3.1.1",
+  "version": "3.1.2",
   "license": "MIT",
   "repository": {
     "type": "git",
