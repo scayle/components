@@ -55,6 +55,8 @@ declare module '@vue/runtime-core' {
     IconPanelMore: typeof import('~icons/panel/more')['default']
     IconPanelRefresh: typeof import('~icons/panel/refresh')['default']
     IconPanelSearch: typeof import('~icons/panel/search')['default']
+    IconPanelStar: typeof import('~icons/panel/star')['default']
+    IconPanelStarFill: typeof import('~icons/panel/star-fill')['default']
     IconPanelTextBold: typeof import('~icons/panel/text-bold')['default']
     IconPanelTextItalic: typeof import('~icons/panel/text-italic')['default']
     IconPanelTextParagraph: typeof import('~icons/panel/text-paragraph')['default']

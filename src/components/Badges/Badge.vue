@@ -1,5 +1,9 @@
 <template>
-    <span :class="className" class="ay-badge" v-text="label || type" />
+    <span :class="className" class="ay-badge">
+        <component :is="icon" v-if="icon" class="icon w-4 h-4 mr-0.5" />
+        <span v-if="!!label">{{label}}</span>
+        <span v-else>{{type}}</span>
+    </span>
 </template>
 
 <script lang="ts">
@@ -21,6 +25,7 @@ export default defineComponent({
     name: 'Badge',
 
     props: {
+        icon: null,
         type: {
             type: String as PropType<BadgeType>,
             default: 'primary',

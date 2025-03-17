@@ -2,6 +2,7 @@
  * Internal dependencies.
  */
 import Badge from './Badge.vue';
+import IconGitBranch from '~icons/panel/git-branch';
 
 export default {
     title: 'Components/Badge',
@@ -56,4 +57,9 @@ Unknown.args = {
 export const WithLabel = Template.bind({});
 WithLabel.args = {
     label: 'Test',
+};
+export const WithIcon = Template.bind({});
+WithIcon.args = {
+    label: 'Test',
+    icon: IconGitBranch,
 };
